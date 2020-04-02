@@ -1,0 +1,105 @@
+@charset "ISO-8859-1";
+body {
+	background-color: lightblue;
+  background-image: url("images/hotelbook.jpg") ;
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+}
+
+
+div {
+  border-radius: 5px;
+  background-color: #c0c0c0;
+  opacity:0.9;
+  padding: 20px;
+  width: 300px;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.result{
+  position: absolute;
+  border-radius: 5px;
+  background-color: #c0c0c0;
+  opacity:0.9;
+  padding: 20px;
+  width: 400px;
+  top:38px;
+  left:450px;
+}
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=date], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+button{
+	width: 100%;
+  background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+a:link {
+  color: red;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
+}
