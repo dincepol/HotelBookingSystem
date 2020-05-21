@@ -1,7 +1,7 @@
 # HotelBookingSystem
 
 About HBS:
-An on system to make hotel room bookings based on date filter.
+An online system to make hotel room bookings based on date filter.
 Technology stack used: 
 JSP-servlet,java,MySQL
 
